@@ -1,0 +1,46 @@
+.header-container {
+  background: rgb(153, 168, 187);
+  background: linear-gradient(
+    356deg,
+    rgba(153, 168, 187, 1) 0%,
+    rgba(18, 76, 129, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 200px;
+}
+.heading-title{
+  font-size: 46px;
+  color: #fff;
+}
+.todoInput-container{
+  display: flex;
+  flex-direction: row;
+  gap: .5rem;
+  position: absolute;
+  bottom: -10%;
+}
+.taskInput{
+  width: 570px;
+  border: 1px solid gray;
+  color: gray;
+  font-size: 20px;
+  outline: none;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.create-btn{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  font-size: 18px;
+  padding: 1rem;
+  background: #124c81;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}

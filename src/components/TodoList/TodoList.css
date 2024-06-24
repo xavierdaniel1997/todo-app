@@ -1,0 +1,52 @@
+.todolist-container{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+    background-color: #e3e6eb;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    min-width: 40%;
+}
+.clickBtn{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #3c345c;
+}
+.todo-data{
+    width: 530px;
+    font-size: 18px;
+}
+.modify-btn-container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.mod-btn-2{
+    font-size: 20px;
+    color: #d6542c;
+}
+.mod-btn-1{
+    font-size: 20px;
+    color: #46ad78ab;
+}
+.toggle-btn{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+}
+.todo-list-item{
+    text-decoration: line-through;
+}
+.edit-todo{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    width: inherit;
+}

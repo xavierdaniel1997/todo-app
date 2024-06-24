@@ -1,0 +1,41 @@
+.tasks-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    width: 100%;
+}
+.todo-heading-status{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 20rem; */
+    /* width: inherit; */
+    min-width: 44%;
+}
+.todo-count{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #3c345c;
+    font-weight: 600;
+}
+.todo-to-complete{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #3c345c;
+    font-weight: 600;
+}
+.task-status{
+    background-color: #e0e0e0;
+    padding: 8px;
+    border-radius: 15px;
+}
+/* .task-status2{
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 15px;
+} */
